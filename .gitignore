@@ -1,0 +1,6 @@
+.idea/
+/frontend/.vs
+/frontend/frontend/obj/Debug
+/.vs/team-project-team-27.slnx/v18
+/.vs
+/frontend/node_modules

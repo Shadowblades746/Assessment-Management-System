@@ -1,0 +1,2 @@
+C:\Users\Marek Joseph Oczadly\Uni\yr 2\System Design and Security\Team Project\main\team-project-team-27\frontend\frontend\obj\Release\frontend.esproj.CoreCompileInputs.cache
+C:\Users\caspa\Documents\University\Second Year\family\current\team-project-team-27\frontend\frontend\obj\Release\frontend.esproj.CoreCompileInputs.cache

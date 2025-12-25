@@ -1,0 +1,73 @@
+@font-face {
+    font-family: ArtegraSansBold;
+    src: url(assets/ArtegraSansBold.otf); 
+}
+
+@font-face {
+    font-family: ArtegraSansMedium;
+    src: url(assets/ArtegraSansMedium.otf);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #EDF8FF;
+    background: linear-gradient(180deg,rgba(237, 248, 255, 0.54) 0%, rgba(255, 255, 255, 1) 100%);
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+#logo {
+    width: 120px;
+    max-width: 50%;
+}
+
+h2, h1 {
+    font-family: ArtegraSansBold
+}
+
+h4 {
+    font-family: ArtegraSansMedium;
+}
+
+.buttonHover, .tintBox, .moveArrow {
+    transition: 0.2s;
+    transition-timing-function: ease;
+    overflow: hidden
+}
+
+.buttonHover:hover {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.buttonHover > * {
+    pointer-events: none;
+    user-select: none;
+}
+
+.buttonHover:hover .tintBox {
+        background: rgba(13,110,253,0.025);
+}
+
+.buttonHover:hover .moveArrow {
+    right: 45px;
+    width: 11px;
+    height: 13px;
+}
+
+.tintBox {
+    background: rgba(13,110,253,0);
+    pointer-events: none;
+    pointer-events: none;
+    user-select: none;
+}
+
+.moveArrow {
+    right: 50px;
+}
+
